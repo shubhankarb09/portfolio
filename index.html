@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>About Me</a></li>
+                    <li><a href='#'>My Projects</a></li>
+                    <li><a href='#'>Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Software Engineer</p>
+                <h1>Hello world! I'm Shubhankar,<br> a Computer Science Student and 
+                    <br> an aspiring Software Engineer</h1>
+            </div>
+        </div>
+    </div>
+    <!------------------About Section--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/cv_picture.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a creative and driven software engineer with a passion for
+                        developing innovative solutions. I enjoy working in teams and
+                        believe that teamwork does create dreamwork. I might have a 
+                        thing for playing the guitar and music in general.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <ul>
+                                <li><img src="img/js.svg"></li>
+                                <li><img src="img/html.svg"></li>
+                                <li><img src="img/css.svg"></li>
+                                <li><img src="img/mysql.svg"></li>
+                                <li><img src="img/python.svg"></li>
+                                <li><img src="img/c.svg"></li>
+                                <li><img src="img/cpp.svg"></li>
+                                <li><img src="img/git.svg"></li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>March 2021-June 2021</span><br>Software Engineering Intern at NatureKnit Private Limited</li>
+                            <li><span>June 2022-November 2022</span><br>IT Team Member at JacobsHack 2022</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>August 2021-Present</span><br>Constructor University (formerly Jacobs University Bremen)</li>
+                            <li><span>June 2017-August 2019</span><br>St. Xavier's College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/cv_picture.jpeg">
+                </div>
+                <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a creative and driven software engineer with a passion for
+                        developing innovative solutions. I enjoy working in teams and
+                        believe that teamwork does create dreamwork. I might have a 
+                        thing for playing the guitar and music in general.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('skills')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                                <li><span>Web Development</span><br>Designing Web Interfaces</li>
+                            </ul>
+                            <ul>
+                                <li><img src="img/js.svg"></li>
+                                <li><img src="img/html.svg"></li>
+                                <li><img src="img/css.svg"></li>
+                                <li><img src="img/mysql.svg"></li>
+                                <li><img src="img/python.svg"></li>
+                                <li><img src="img/c.svg"></li>
+                                <li><img src="img/cpp.svg"></li>
+                                <li><img src="img/git.svg"></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience"></div>
+                            <ul>
+                                <li><span>March 2021-June 2021</span><br>
+                                Software Engineering Intern at NatureKnit Private Limited</li>
+                            
+                                <li><span>June 2022-November 2022</span><br>
+                                IT Team Memeber at JacobsHack 2022</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education"></div>
+                            <ul>
+                                <li><span>August 2021-Present</span><br>
+                                Constructor University (formerly Jacobs University Bremen)</li>
+                            
+                                <li><span>June 2017-August 2019</span><br>
+                                St. Xavier's College</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!-- --------------Projects-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="img/background.jpeg">
+                    <div class="layer">
+                        <h3>JacobsHack website</h3>
+                        <p>The official website for the JacobsHack hackathon.
+                            Created in collaboration with my teammates.</p>
+                        <a href="https://jacobshack.com/">Website</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/background.jpeg">
+                    <div class="layer">
+                        <h3>HealthPlus</h3>
+                        <p>The project that I did for my Databases and Web Services course</p>
+                        <a href="#">Website</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------Contact Me---------------->    
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</body>
+</html>
