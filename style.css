@@ -152,9 +152,10 @@ nav ul li a:hover::after{
     display: block;
 }
 
-.tab-contents ul li img{
+.logos{
     width: 100px;
     height: 100px;
+    display: inline-flex;
 }
 
 /* ------------Portfolio-------- */
