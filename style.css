@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
 
@@ -152,10 +152,23 @@ nav ul li a:hover::after{
     display: block;
 }
 
-.logos{
+.tab-contents ul li img{
     width: 100px;
     height: 100px;
-    display: inline-flex;
+}
+
+.tab-contents ul li {
+    display: block;
+    margin-bottom: 30px;
+
+}
+.tab-contents ul li span{
+    display: block;
+
+}
+.firsttab div ul ul li{
+display: inline-flex;
+margin-right: 24px;
 }
 
 /* ------------Portfolio-------- */
@@ -246,3 +259,8 @@ nav ul li a:hover::after{
     display:inline-block;
 }
 
+#phone{
+    height: 5%;
+    width: 5%;
+    margin-right: 10px;
+}
